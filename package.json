@@ -3,6 +3,7 @@
   "displayName": "Code Outline",
   "description": "Extract and display function headers from source files for easy documentation.",
   "version": "1.1.0",
+  "publisher":"Rowan00Omar", 
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -21,10 +22,13 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+"vscode:prepublish": "echo 'No compile step needed'",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "compile": "tsc -p ./",
+      "package": "vsce package",
+  "publish": "vsce publish"
   },
   "devDependencies": {
     "@types/vscode": "^1.100.0",
@@ -34,6 +38,12 @@
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
   },
+
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Rowan00Omar/VSCode-Extension-Code-Outline.git"
+},
+
   "keywords": [
     "vscode",
     "extension",
@@ -47,5 +57,6 @@
     "programming language"
   ],
   "author": "Your Rowan Omar <rowan00omar@gmail.com>",
+  
   "license": "MIT"
 }
