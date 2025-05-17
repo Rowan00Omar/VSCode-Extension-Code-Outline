@@ -30,6 +30,27 @@ Make sure files have the correct language mode (e.g., Python, JavaScript).
 
 ---
 
+## Manual Installation (Without Marketplace)
+
+If you install the extension manually from the `.vsix` package file, follow the following steps.
+
+### How to install from a `.vsix` file:
+
+1. Download the `.vsix` file from the [Releases](https://github.com/your-repo/your-extension/releases) page or wherever you host it.
+
+2. Open Visual Studio Code.
+
+3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette.
+
+4. Type and select:  
+   `Extensions: Install from VSIX...`
+
+5. Browse to the downloaded `.vsix` file and select it.
+
+6. VS Code will install the extension. Reload or restart VS Code if prompted.
+
+---
+
 ## Extension Usage
 
 1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).

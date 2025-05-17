@@ -1,6 +1,6 @@
 {
   "name": "code-outline",
-  "displayName": "Code Outline",
+  "displayName": "Code Outline for Ease",
   "description": "Extract and display function headers from source files for easy documentation.",
   "version": "1.1.0",
   "publisher":"Rowan00Omar", 
