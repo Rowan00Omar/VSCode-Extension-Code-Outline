@@ -1,0 +1,51 @@
+{
+  "name": "code-outline",
+  "displayName": "Code Outline",
+  "description": "Extract and display function headers from source files for easy documentation.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "code-outline.codeOutline",
+        "title": "Outline My Code"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.16.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "function",
+    "outline",
+    "documentation",
+    "code",
+    "python",
+    "webview",
+    "javascript",
+    "programming language"
+  ],
+  "author": "Your Rowan Omar <rowan00omar@gmail.com>",
+  "license": "MIT"
+}
