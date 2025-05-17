@@ -6,9 +6,6 @@ const path = require("path");
 let panel;
 
 
-
-
-
 async function getFunctionSymbols(document) {
   const symbols = await vscode.commands.executeCommand(
     "vscode.executeDocumentSymbolProvider",
