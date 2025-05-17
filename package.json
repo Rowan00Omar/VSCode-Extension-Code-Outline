@@ -2,7 +2,7 @@
   "name": "code-outline",
   "displayName": "Code Outline",
   "description": "Extract and display function headers from source files for easy documentation.",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.100.0"
   },
